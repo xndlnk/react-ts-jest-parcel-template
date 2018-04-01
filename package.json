@@ -45,7 +45,7 @@
     ],
     "moduleNameMapper": {
       "\\.(css)$": "identity-obj-proxy",
-      "\\.(svg)$": "<rootDir>/empty-module.js"
+      "\\.(svg)$": "<rootDir>/test/empty-module.js"
     }
   }
 }
