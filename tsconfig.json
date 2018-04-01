@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "downlevelIteration": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "lib": [
+      "es2015",
+      "es2016",
+      "dom"
+    ],
+    "paths": {
+      "@/*": ["src/*"],
+      "~*": ["*"]
+    },
+    "types": [
+      "node"
+    ]
+  }
+}

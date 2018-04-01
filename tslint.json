@@ -1,0 +1,7 @@
+{
+  "extends": "tslint-config-standard",
+  "rules": {
+    "autoFixOnSave": true,
+    "quotemark": [true, "single", "jsx-double"]
+  }
+}
