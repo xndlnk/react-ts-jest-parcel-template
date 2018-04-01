@@ -1,23 +1,26 @@
 import * as React from 'react'
-import styles from './App.css'
+import styled from 'styled-components'
 
-const logo = require('./logo.svg')
+const Title = styled.h1`
+  font-size: 1.5em;
+  text-align: center;
+  color: palevioletred;
+`
+
+const Wrapper = styled.section`
+  padding: 4em;
+  background: papayawhip;
+`
 
 interface AppPropsType {}
 interface AppStateType {}
 
 class App extends React.Component<AppPropsType, AppStateType> {
-  public render () {
+  public render() {
     return (
-      <div className={styles.App}>
-        <header className={styles.AppHeader}>
-          <img src={logo} className={styles.AppLogo} alt="logo" />
-          <h1 className={styles.AppTitle}>Test</h1>
-        </header>
-        <p className={styles.AppIntro}>
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <Wrapper>
+        <Title>Test</Title>
+      </Wrapper>
     )
   }
 }

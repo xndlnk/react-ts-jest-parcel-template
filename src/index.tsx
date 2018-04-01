@@ -8,6 +8,6 @@ const renderApp = () => ReactDOM.render(<App />, container)
 
 renderApp()
 
-if ((module as any).hot) {
+/*if ((module as any).hot) {
   (module as any).hot.accept(renderApp)
-}
+}*/

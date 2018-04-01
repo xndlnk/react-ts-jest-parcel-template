@@ -23,7 +23,8 @@
   },
   "dependencies": {
     "react": "^16.3.0",
-    "react-dom": "^16.3.0"
+    "react-dom": "^16.3.0",
+    "styled-components": "3.2.5"
   },
   "scripts": {
     "start": "parcel index.html",
@@ -35,14 +36,7 @@
       "^.+\\.tsx?$": "ts-jest"
     },
     "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js",
-      "jsx",
-      "json",
-      "node"
-    ],
+    "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"],
     "moduleNameMapper": {
       "\\.(css)$": "identity-obj-proxy",
       "\\.(svg)$": "<rootDir>/test/empty-module.js"
