@@ -2,6 +2,7 @@
   "extends": "tslint-config-standard",
   "rules": {
     "autoFixOnSave": true,
-    "quotemark": [true, "single", "jsx-double"]
+    "quotemark": [true, "single", "jsx-double"],
+    "space-before-function-paren": [true, "never"]
   }
 }
